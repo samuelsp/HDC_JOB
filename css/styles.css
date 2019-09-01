@@ -81,3 +81,54 @@ nav:after {
 .nav-container li a:hover {
     color: #3381f3;
 }
+
+/* banner */
+#main-banner {
+    background: url('../img/banner6.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+}
+
+#search-form {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+#search-form h1 {
+    font-size: 38px;
+}
+
+#search-form p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#search-form input, #search-form select {
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+#search-form input[type=submit] {
+    background-color: #3381f3;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#search-form input[type=submit]:hover {
+    background-color: #2b79eb;
+}
