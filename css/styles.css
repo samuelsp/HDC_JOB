@@ -132,3 +132,163 @@ nav:after {
 #search-form input[type=submit]:hover {
     background-color: #2b79eb;
 }
+
+/* lastjobs */
+
+#lastjobs-container {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lastjobs-container h1 {
+    font-size: 36px;
+    margin-bottom: 50px;    
+}
+
+#lastjobs-container ul {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#lastjobs-container ul li {
+    list-style: none;
+    text-align: left;
+    border-bottom: solid 1px #ccc;
+    height: 80px;
+    position: relative;
+}
+
+#lastjobs-container ul li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#lastjobs-container ul li:last-child {
+    border: none;
+}
+
+.clickarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* company-box */
+
+.company-box {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-left: 1%;
+}
+
+.company-box img {
+    width: 100px;
+    margin-top: 2.5px;
+}
+
+/* company-info */
+
+.company-box .company-info {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: left;
+    position: absolute;
+}
+
+.company-box .company-info h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.company-box .company-info p {
+    font-weight: bold;
+}
+
+/* locality */
+.locality {
+    color: #6d6d6d;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    line-height: 80px;
+}   
+
+.locality i, .locality p {
+    display: inline-block;    
+}
+
+.locality i {
+    margin-right: 5px;
+}
+
+/* jobtype */ 
+
+.job-type {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    padding-top: 30px;
+    right: 1%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.job-type span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.clt {
+    background-color: #735fee;
+}
+
+.pj {
+    background-color: #5bbc2e;
+}
+
+.homeoffice {
+    background-color: #ff5a5f;
+}
+
+/* btnjobs */ 
+.btnjobs-container {
+    margin-top: 50px;
+}
+
+.btn-jobs {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #3381f3;
+    border: 2px solid #3381f3;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn-jobs:hover {
+    background-color: #3381f3;
+    color: #fff;
+}
