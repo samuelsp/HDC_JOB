@@ -292,3 +292,45 @@ nav:after {
     background-color: #3381f3;
     color: #fff;
 }
+
+/* sendjobs */
+
+#sendjobs-container {
+    background: url('../img/banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 25%;
+    padding: 15em 0;
+}
+
+#sendjobs-container h2,
+#sendjobs-container p {
+    width: 600px;
+    color: #fff;
+}
+
+#sendjobs-container h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#sendjobs-container p {
+    font-size: 18px;
+    margin-bottom: 50px;
+} 
+
+.light-btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.light-btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
