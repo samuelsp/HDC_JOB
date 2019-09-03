@@ -1,2 +1,2 @@
 # HDC_JOB
-Projeto para criação de página para procura de emprego
+Projeto para criação de página web para procura de emprego
